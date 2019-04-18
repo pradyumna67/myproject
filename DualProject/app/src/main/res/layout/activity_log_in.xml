@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LogInActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editText_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_right"
+        android:inputType="text"
+        android:hint="@string/hint_email" />
+    <EditText
+        android:id="@+id/editText_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/editText_login_email"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginRight="@dimen/margin_right"
+        android:hint="@string/hint_password" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_login_password"
+        android:layout_centerHorizontal="true"
+        android:background="#8526"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/text_login" />
+    <TextView
+        android:id="@+id/text_not_registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/not_member"
+        android:textSize="@dimen/text_size"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:background="#1111"
+        android:layout_marginTop="@dimen/margin_top"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

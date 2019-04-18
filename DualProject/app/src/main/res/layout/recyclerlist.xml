@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:elevation="3dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/basic_margin">
+            <TextView
+                android:id="@+id/cardview_text"
+                android:text="Title:"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/cardview_text_title"
+                android:text="Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_small_margin"/>
+
+
+            <TextView
+                android:id="@+id/cardview_text1"
+                android:text="Description:"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/basic_small_margin"/>
+
+            <TextView
+                android:id="@+id/cardview_text_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:layout_marginTop="@dimen/basic_small_margin"/>
+        </LinearLayout>
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginTop="@dimen/basic_small_margin" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

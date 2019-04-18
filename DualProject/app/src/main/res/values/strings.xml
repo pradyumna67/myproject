@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Employee Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_name">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_signup">Sign Up</string>
+    <string name="error_email">Please Enter Valid Email!</string>
+    <string name="error_password">Not a Valid Password!</string>
+    <string name="already_member">Already a Member?Log in</string>
+    <string name="not_member">Not a Member?Sign up</string>
+    <string name="password_unmatched">Password Should Be Match</string>
+    <string name="email_exists">Email Already Exists</string>
+    <string name="password_not_match">Password Does Not Matches </string>
+    <string name="fieled_empty_name">Name Should Be Entered </string>
+    <string name="fieled_empty_email">Email Should Be Entered </string>
+    <string name="fieled_empty_phone">Phone Number Should Be Entered </string>
+    <string name="fieled_empty_password">Password Should Be Entered </string>
+    <string name="invalid_phone">Not A Valid Phone Number</string>
+    <string name="invalid_email_or_password">Please Enter A Valid Email Or Passwordr</string>
+    <string name="password_validation">password range(6 -20)
+                                        Alphanumeric character with special symbol</string>
+    <string name="permission_denies">Permission Denied</string>
+
+    <string name="addes_data">Successfully Added </string>
+    <string name="failed_to_add">Failed to Add Data</string>
+    <string name="access_denied">Access Denied</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="save">Save</string>
+    <string name="upload">Upload</string>
+    <string name="first_name_filled">First name should be enter</string>
+    <string name="updated">Successfully Updated</string>
+    <string name="last_name">Last Name</string>
+    <string name="current_platform">Current Platform</string>
+    <string name="hint_designation">Designation</string>
+    <string name="hint_experience">Experience</string>
+    <string name="update">Update</string>
+    <string name="add_note">Add Note</string>
+    <string name="exp">Exp.</string>
+</resources>
+

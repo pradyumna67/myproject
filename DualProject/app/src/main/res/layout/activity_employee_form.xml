@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EmployeeFormActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/student_photo"
+                android:src="@drawable/imagee_add"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <Button
+                android:id="@+id/btn_upload_image"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/student_photo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:padding="1dp"
+                android:text="@string/upload" />
+
+
+            <EditText
+                android:id="@+id/editText_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_upload_image"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="@dimen/margin_right"
+                android:inputType="text"
+                android:hint="@string/first_name" />
+            <EditText
+                android:id="@+id/editText_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_first_name"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:inputType="text"
+                android:hint="@string/last_name" />
+
+            <EditText
+                android:id="@+id/editText_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_last_name"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_email" />
+
+            <EditText
+                android:id="@+id/editText_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_email"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/hint_phone" />
+            <EditText
+                android:id="@+id/editText_platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText_phone"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginRight="@dimen/margin_right"
+                android:hint="@string/current_platform" />
+            <TextView
+                android:id="@+id/tv_dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_below="@id/editText_platform"
+                android:text="@string/hint_designation"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_dept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_dept"
+                android:layout_marginLeft="120dp"
+                android:hint="@string/hint_designation" />
+
+            <TextView
+                android:id="@+id/tv_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginRight="@dimen/margin_right"
+                android:layout_below="@id/tv_dept"
+                android:text="Total Exp. :"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_exp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/tv_exp"
+                android:layout_marginLeft="120dp"
+                android:hint="@string/exp" />
+
+            <Spinner
+                android:id="@+id/spinner_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_dept"
+                android:layout_marginTop="1dp"
+                android:layout_toRightOf="@id/et_exp">
+            </Spinner>
+
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/et_exp"
+                android:layout_centerHorizontal="true"
+                android:background="#8526"
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:hint="@string/save" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

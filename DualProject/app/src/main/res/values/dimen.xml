@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="basic_margin">15dp</dimen>
+    <dimen name="action_btn_bottom_margin">35dp</dimen>
+    <dimen name="action_btn_right_margin">16dp</dimen>
+    <dimen name="basic_small_margin">4dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="right_margin">15dp</dimen>
+    <dimen name="left_margin">15dp</dimen>
+    <dimen name="margin_top">15dp</dimen>
+    <dimen name="margin_left">25dp</dimen>
+    <dimen name="margin_right">25dp</dimen>
+    <dimen name="layout_height">60dp</dimen>
+    <dimen name="floating_height">30dp</dimen>
+    <dimen name="floating_width">30dp</dimen>
+    <dimen name="text_size">15dp</dimen>
+</resources>
